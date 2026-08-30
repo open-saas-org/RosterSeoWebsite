@@ -22,7 +22,7 @@ const COLUMNS = [
     title: "Community",
     links: [
       { href: "https://github.com/open-saas-org/seo", label: "GitHub" },
-      { href: "#", label: "Discord" },
+      { href: "https://github.com/open-saas-org/seo/issues", label: "Issues" },
       { href: "https://github.com/open-saas-org/seo/blob/main/CONTRIBUTING.md", label: "Contributing" },
     ],
   },
