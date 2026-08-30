@@ -1,0 +1,24 @@
+# RosterSEO
+
+> RosterSEO is an open-source, self-hosted platform that unifies SEO, AI-answer-engine visibility tracking, and multi-platform content publishing. MIT licensed.
+
+RosterSEO tracks how a site ranks in classic search (Google) and how it's mentioned by AI answer engines (ChatGPT, Gemini, Perplexity), audits site health, and publishes content across 10 blog platforms and 8 social platforms — all from one self-hosted instance the operator fully controls. Every number shown is backed by a real API call (DataForSEO, Google APIs, or an AI provider); nothing is fabricated.
+
+## Product
+- [Features](https://rosterseo.com/features): Full feature list — Page Analyzer, Site Audit, Rank Tracking, Keyword Research, AI Visibility, Local SEO, Cappy (in-app AI agent), Publish, Social.
+- [How it works](https://rosterseo.com/how-it-works): Step-by-step, from self-hosting to first published post.
+- [Integrations](https://rosterseo.com/integrations): Every blog and social platform connection.
+- [Pricing](https://rosterseo.com/pricing): Self-hosted is free forever; hosted cloud is coming.
+
+## Project
+- [Open Source](https://rosterseo.com/open-source): License, live GitHub stats, contributors.
+- [Vision](https://rosterseo.com/vision): Why the project exists.
+- [Roadmap](https://rosterseo.com/roadmap): What's shipped, in progress, and next.
+- [Changelog](https://rosterseo.com/changelog): Real releases, pulled from GitHub.
+- [Blog](https://rosterseo.com/blog): Updates and deep-dives.
+
+## Docs
+- [Documentation](https://docs.rosterseo.com): Self-hosting, architecture, and per-feature guides.
+
+## Repository
+- [GitHub](https://github.com/open-saas-org/seo): Full source, MIT licensed.
