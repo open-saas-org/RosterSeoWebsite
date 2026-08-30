@@ -1,26 +1,72 @@
 @import "tailwindcss";
 
+/*
+ * Light-only palette, deliberately - no dark mode. Values mirror the main
+ * app's tokens (apps/web/app/globals.css in the RosterSeo repo) so the
+ * marketing site and the product read as the same brand.
+ */
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #0a0a0a;
+
+  --ink: #0a0a0a;
+  --ink-soft: #52525b;
+  --ink-faint: #a1a1aa;
+  --line: #e4e4e7;
+  --muted: #fafafa;
+  --muted-2: #f4f4f5;
+
+  --primary: #0d9488;
+  --primary-dark: #0f766e;
+  --primary-tint: #f0fdfa;
+
+  --seo: #059669;
+  --seo-tint: #ecfdf5;
+  --publish: #9333ea;
+  --publish-tint: #faf5ff;
+  --sky: #0ea5e9;
+  --sky-tint: #f0f9ff;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-ink-faint: var(--ink-faint);
+  --color-line: var(--line);
+  --color-muted: var(--muted);
+  --color-muted-2: var(--muted-2);
+
+  --color-primary: var(--primary);
+  --color-primary-dark: var(--primary-dark);
+  --color-primary-tint: var(--primary-tint);
+
+  --color-seo: var(--seo);
+  --color-seo-tint: var(--seo-tint);
+  --color-publish: var(--publish);
+  --color-publish-tint: var(--publish-tint);
+  --color-sky: var(--sky);
+  --color-sky-tint: var(--sky-tint);
+
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), system-ui, -apple-system, "Segoe UI", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3 {
+  letter-spacing: -0.02em;
+  text-wrap: pretty;
+}
+
+::selection {
+  background: var(--primary-tint);
+  color: var(--primary-dark);
 }
