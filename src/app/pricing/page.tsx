@@ -69,7 +69,7 @@ export default function PricingPage() {
               <span className="text-sm text-ink-faint">Pricing not announced</span>
             </div>
             <a
-              href="https://github.com/open-saas-org/seo"
+              href="https://github.com/open-saas-org/RosterSeo"
               className="flex items-center justify-center gap-2 rounded-[10px] border border-line bg-white px-6 py-3.5 text-[15px] font-semibold text-ink hover:bg-muted"
             >
               <GitHubIcon className="size-4" />

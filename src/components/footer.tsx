@@ -40,9 +40,9 @@ const COLUMNS = [
   {
     title: "Community",
     links: [
-      { href: "https://github.com/open-saas-org/seo", label: "GitHub" },
-      { href: "https://github.com/open-saas-org/seo/issues", label: "Issues" },
-      { href: "https://github.com/open-saas-org/seo/blob/main/CONTRIBUTING.md", label: "Contributing" },
+      { href: "https://github.com/open-saas-org/RosterSeo", label: "GitHub" },
+      { href: "https://github.com/open-saas-org/RosterSeo/issues", label: "Issues" },
+      { href: "https://github.com/open-saas-org/RosterSeo/blob/main/CONTRIBUTING.md", label: "Contributing" },
     ],
   },
 ];

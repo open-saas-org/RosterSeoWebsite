@@ -38,7 +38,7 @@ export default function PrivacyPage() {
         <h2>Contact</h2>
         <p>
           Questions about this policy: open an issue on{" "}
-          <a href="https://github.com/open-saas-org/seo">GitHub</a>, or reach the maintainers through the contact
+          <a href="https://github.com/open-saas-org/RosterSeo">GitHub</a>, or reach the maintainers through the contact
           methods listed there.
         </p>
       </div>

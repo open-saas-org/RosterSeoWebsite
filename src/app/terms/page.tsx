@@ -10,7 +10,7 @@ export default function TermsPage() {
       <div className="prose-blog mx-auto max-w-[720px] px-8 py-16 text-[15px] leading-relaxed text-ink-soft">
         <h2>The software</h2>
         <p>
-          RosterSEO is distributed under the <a href="https://github.com/open-saas-org/seo/blob/main/LICENSE">MIT
+          RosterSEO is distributed under the <a href="https://github.com/open-saas-org/RosterSeo/blob/main/LICENSE">MIT
           License</a>. That license — not this page — governs your right to use, modify, and distribute the
           software. In short: it&apos;s provided as-is, with no warranty, and you&apos;re free to do almost anything with it,
           including running it commercially.

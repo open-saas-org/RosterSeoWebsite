@@ -6,7 +6,7 @@ import { Logo } from "./logo";
 import { GitHubIcon } from "./icons";
 import { FEATURES } from "@/lib/features";
 
-const GITHUB_URL = "https://github.com/open-saas-org/seo";
+const GITHUB_URL = "https://github.com/open-saas-org/RosterSeo";
 const APP_URL = "https://app.rosterseo.com";
 
 const RESOURCES_LINKS = [

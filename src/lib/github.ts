@@ -6,7 +6,7 @@
 // or an empty state, never fabricated numbers.
 
 export const GITHUB_OWNER = "open-saas-org";
-export const GITHUB_REPO = "seo";
+export const GITHUB_REPO = "RosterSeo";
 export const GITHUB_REPO_URL = `https://github.com/${GITHUB_OWNER}/${GITHUB_REPO}`;
 
 const API_BASE = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}`;

@@ -16,7 +16,7 @@ export function CtaBand() {
           <ArrowRightIcon className="size-4" />
         </a>
         <a
-          href="https://github.com/open-saas-org/seo"
+          href="https://github.com/open-saas-org/RosterSeo"
           className="flex w-full items-center justify-center gap-2 whitespace-nowrap rounded-[10px] border border-neutral-700 px-[22px] py-3.5 text-[15.5px] font-semibold text-white hover:bg-neutral-900 sm:w-auto"
         >
           <GitHubIcon className="size-[17px]" />

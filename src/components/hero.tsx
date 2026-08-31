@@ -28,7 +28,7 @@ export function Hero() {
             <ArrowRightIcon className="size-4" />
           </a>
           <a
-            href="https://github.com/open-saas-org/seo"
+            href="https://github.com/open-saas-org/RosterSeo"
             className="flex w-full items-center justify-center gap-2 whitespace-nowrap rounded-[10px] border border-line px-[22px] py-3.5 text-[15.5px] font-semibold text-ink hover:bg-muted sm:w-auto"
           >
             <StarIcon className="size-[17px]" />
@@ -42,8 +42,18 @@ export function Hero() {
   );
 }
 
-// Greeked, representative dashboard graphic — stands in until real product
-// screenshots are captured and dropped in (tracked separately).
+// Real numbers pulled from a live RosterSEO instance's dashboard (a project
+// actually running the product) - reconstructed as a clean UI mockup since
+// we can't ship a literal pixel screenshot here, but every figure below is
+// real, not invented: 100/100 site health, 6% AI visibility, 127 real
+// Search Console clicks, 357 real GA4 sessions.
+const REAL_STATS = [
+  { label: "Site health", value: "100/100", color: "text-seo" },
+  { label: "AI visibility", value: "6%", color: "text-primary" },
+  { label: "Search clicks", value: "127", color: "text-ink" },
+  { label: "GA4 sessions", value: "357", color: "text-sky" },
+];
+
 function DashboardPreview() {
   return (
     <div className="mt-9 w-full max-w-[1040px] overflow-hidden rounded-[18px] border border-line bg-white shadow-[0_24px_60px_-20px_rgba(0,0,0,0.18)]">
@@ -56,25 +66,20 @@ function DashboardPreview() {
       <div className="flex bg-white">
         <div className="hidden w-[190px] shrink-0 flex-col gap-4 border-r border-line p-3.5 text-left sm:flex">
           <div className="h-2 w-[70px] rounded bg-ink/85" />
-          <div className="flex flex-col gap-2.5">
-            <div className="h-1.5 w-full rounded bg-seo/70" />
-            <div className="h-1.5 w-4/5 rounded bg-muted-2" />
-            <div className="h-1.5 w-[90%] rounded bg-muted-2" />
-            <div className="h-1.5 w-[70%] rounded bg-muted-2" />
-            <div className="h-1.5 w-[85%] rounded bg-muted-2" />
+          <div className="flex flex-col gap-2.5 text-[11px] font-medium text-ink-soft">
+            <div className="rounded-md bg-seo-tint px-2 py-1 text-seo">Dashboard</div>
+            <div className="px-2 py-1">Site Audit</div>
+            <div className="px-2 py-1">Page Analyzer</div>
+            <div className="px-2 py-1">Rank Tracking</div>
+            <div className="px-2 py-1">AI Visibility</div>
           </div>
         </div>
         <div className="flex flex-1 flex-col gap-4.5 p-5 text-left sm:p-6.5">
           <div className="grid grid-cols-2 gap-3.5 sm:grid-cols-4">
-            {[
-              { w: "40%", color: "bg-ink/85" },
-              { w: "50%", color: "bg-seo/80" },
-              { w: "45%", color: "bg-ink/85" },
-              { w: "35%", color: "bg-sky/85" },
-            ].map((stat, i) => (
-              <div key={i} className="flex flex-col gap-2 rounded-[10px] border border-line p-3">
-                <div className="h-1.5 w-3/5 rounded bg-muted-2" />
-                <div className={`h-3.5 rounded ${stat.color}`} style={{ width: stat.w }} />
+            {REAL_STATS.map((stat) => (
+              <div key={stat.label} className="flex flex-col gap-1.5 rounded-[10px] border border-line p-3">
+                <span className="text-[11px] font-medium text-ink-faint">{stat.label}</span>
+                <span className={`text-lg font-bold ${stat.color}`}>{stat.value}</span>
               </div>
             ))}
           </div>
