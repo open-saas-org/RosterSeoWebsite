@@ -48,7 +48,7 @@ export default function PricingPage() {
               ))}
             </div>
             <a
-              href="https://docs.rosterseo.com/docs/self-hosting"
+              href="https://app.rosterseo.com/docs/deploy/self-hosting"
               className="mt-2 flex items-center justify-center gap-2 rounded-[10px] bg-ink px-6 py-3.5 text-[15px] font-semibold text-white hover:bg-neutral-800"
             >
               Self-hosting guide

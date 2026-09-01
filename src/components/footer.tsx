@@ -21,7 +21,7 @@ const COLUMNS = [
   {
     title: "Resources",
     links: [
-      { href: "https://docs.rosterseo.com", label: "Docs" },
+      { href: "https://app.rosterseo.com/docs", label: "Docs" },
       { href: "/blog", label: "Blog" },
       { href: "/changelog", label: "Changelog" },
       { href: "/roadmap", label: "Roadmap" },

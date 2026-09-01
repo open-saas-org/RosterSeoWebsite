@@ -18,7 +18,7 @@ RosterSEO tracks how a site ranks in classic search (Google) and how it's mentio
 - [Blog](https://rosterseo.com/blog): Updates and deep-dives.
 
 ## Docs
-- [Documentation](https://docs.rosterseo.com): Self-hosting, architecture, and per-feature guides.
+- [Documentation](https://app.rosterseo.com/docs): Self-hosting, architecture, and per-feature guides.
 
 ## Repository
 - [GitHub](https://github.com/open-saas-org/RosterSeo): Full source, MIT licensed.

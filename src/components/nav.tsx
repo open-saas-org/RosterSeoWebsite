@@ -69,7 +69,7 @@ export function Nav() {
             <Link href="/pricing" className="rounded-md px-3 py-2 text-[14.5px] font-medium text-ink-soft hover:bg-muted hover:text-ink">
               Pricing
             </Link>
-            <a href="https://docs.rosterseo.com" className="rounded-md px-3 py-2 text-[14.5px] font-medium text-ink-soft hover:bg-muted hover:text-ink">
+            <a href="https://app.rosterseo.com/docs" className="rounded-md px-3 py-2 text-[14.5px] font-medium text-ink-soft hover:bg-muted hover:text-ink">
               Docs
             </a>
           </div>

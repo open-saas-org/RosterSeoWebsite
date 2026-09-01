@@ -21,7 +21,7 @@ const CHANNELS = [
     title: "Have a question?",
     description: "Check the docs first — most self-hosting and configuration questions are answered there in detail.",
     cta: "Browse the docs",
-    href: "https://docs.rosterseo.com",
+    href: "https://app.rosterseo.com/docs",
   },
   {
     icon: ShieldIcon,
@@ -52,7 +52,7 @@ export default function SupportPage() {
         <div className="mt-14 rounded-2xl border border-line bg-muted p-8">
           <h2 className="mb-2 text-lg font-bold">Before you open an issue</h2>
           <ul className="flex flex-col gap-2 text-[14.5px] leading-relaxed text-ink-soft">
-            <li>• Check the <a href="https://docs.rosterseo.com" className="font-medium text-primary">self-hosting guide</a> — most first-run issues are the two-role Postgres setup.</li>
+            <li>• Check the <a href="https://app.rosterseo.com/docs" className="font-medium text-primary">self-hosting guide</a> — most first-run issues are the two-role Postgres setup.</li>
             <li>• Search <a href={`${GITHUB_REPO_URL}/issues`} className="font-medium text-primary">existing issues</a> — someone may have already hit and solved it.</li>
             <li>• Include your deploy method (Docker Compose, plain Dockerfile, Railway) — it changes where to look.</li>
           </ul>

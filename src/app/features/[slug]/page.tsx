@@ -57,7 +57,7 @@ export default async function FeatureDetailPage({ params }: { params: Promise<{ 
         </div>
 
         <a
-          href="https://docs.rosterseo.com"
+          href="https://app.rosterseo.com/docs"
           className="mt-8 inline-flex items-center gap-2 text-sm font-semibold text-primary hover:text-primary-dark"
         >
           Full documentation

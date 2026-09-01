@@ -19,7 +19,7 @@ export default function NotFound() {
           <ArrowRightIcon className="size-3.5" />
         </Link>
         <a
-          href="https://docs.rosterseo.com"
+          href="https://app.rosterseo.com/docs"
           className="rounded-[10px] border border-line px-5 py-2.5 text-sm font-semibold text-ink hover:bg-muted"
         >
           Go to docs
