@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return { title: `${feature.title} — RosterSEO`, description: feature.description };
 }
 
-const PILLAR_COLOR: Record<string, string> = { SEO: "text-seo", Publish: "text-publish", Social: "text-sky" };
+const PILLAR_COLOR: Record<string, string> = { SEO: "text-seo", Publish: "text-publish", Social: "text-sky", Platform: "text-ink" };
 
 export default async function FeatureDetailPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;

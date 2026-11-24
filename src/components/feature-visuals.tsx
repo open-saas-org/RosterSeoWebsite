@@ -136,6 +136,21 @@ export function ChatVisual() {
   );
 }
 
+// Real tool names from apps/mcp-server/src/index.ts, same mini-terminal
+// treatment as the homepage's McpTerminal section.
+export function McpVisual() {
+  return (
+    <div className="flex h-full items-center justify-center p-5">
+      <div className="w-full rounded-[10px] bg-[#0b0f0e] p-4 font-mono text-[11px] leading-relaxed">
+        <div className="text-emerald-400">● get_rankings({"{"} projectId {"}"})</div>
+        <div className="pl-2 text-white/50">→ real position history, most recent first</div>
+        <div className="mt-1.5 text-emerald-400">● get_site_audits({"{"} projectId {"}"})</div>
+        <div className="pl-2 text-white/50">→ health score, pages crawled, open issues</div>
+      </div>
+    </div>
+  );
+}
+
 export function CardGridVisual() {
   return (
     <div className="grid h-full grid-cols-2 gap-2.5 p-6">

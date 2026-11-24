@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description: "Every real feature in RosterSEO: SEO research and audits, AI-answer-engine visibility tracking, and multi-platform publishing.",
 };
 
-const PILLAR_COLOR: Record<string, string> = { SEO: "text-seo", Publish: "text-publish", Social: "text-sky" };
+const PILLAR_COLOR: Record<string, string> = { SEO: "text-seo", Publish: "text-publish", Social: "text-sky", Platform: "text-ink" };
 
 export default function FeaturesPage() {
   return (

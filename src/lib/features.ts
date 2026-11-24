@@ -7,11 +7,12 @@ import {
   AvatarRowsVisual,
   ChatVisual,
   CardGridVisual,
+  McpVisual,
 } from "@/components/feature-visuals";
 
 export type Feature = {
   slug: string;
-  pillar: "SEO" | "Publish" | "Social";
+  pillar: "SEO" | "Publish" | "Social" | "Platform";
   flagship?: boolean;
   title: string;
   tagline: string;
@@ -115,6 +116,20 @@ export const FEATURES: Feature[] = [
       "Queue short-form posts across LinkedIn, X, Threads, Meta, Pinterest, Mastodon, and Bluesky from one composer, with platform-native copy and independent status per target — same shape as Publish, built for social's format.",
     points: ["LinkedIn, X, Threads, Meta, Pinterest, Mastodon, Bluesky", "Platform-native, short-form copy per target", "Schedule ahead or post immediately"],
     visual: ChatVisual,
+  },
+  {
+    slug: "mcp-server",
+    pillar: "Platform",
+    title: "MCP Server",
+    tagline: "Point your own AI tools at your real data",
+    description:
+      "RosterSEO ships a real MCP server — Claude, Cursor, ChatGPT, or any MCP-compatible agent can query your rankings, site audits, competitors, and AI-visibility results directly, scoped to a revocable API key you control.",
+    points: [
+      "15+ real tools — keywords, rankings, audits, competitors, AI visibility",
+      "Scoped, revocable API keys — never your whole account",
+      "Self-hosted means the server is yours too, not a third party's",
+    ],
+    visual: McpVisual,
   },
 ];
 
