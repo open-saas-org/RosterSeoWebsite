@@ -1,10 +1,10 @@
 import { CheckIcon, GitBranchIcon, SearchIcon, ServerIcon } from "./icons";
 
 const BADGES = [
-  { icon: SearchIcon, label: "Real DataForSEO + Google data, not estimates" },
-  { icon: ServerIcon, label: "Live in minutes — no setup, no servers to run" },
-  { icon: CheckIcon, label: "14-day free trial, no credit card" },
-  { icon: GitBranchIcon, label: "Open source — self-host it anytime" },
+  { icon: SearchIcon, label: "Real DataForSEO + Google data, not estimates", color: "text-seo" },
+  { icon: ServerIcon, label: "Live in minutes — no setup, no servers to run", color: "text-sky" },
+  { icon: CheckIcon, label: "14-day free trial, no credit card", color: "text-primary" },
+  { icon: GitBranchIcon, label: "Open source — self-host it anytime", color: "text-publish" },
 ];
 
 export function TrustBadges() {
@@ -14,7 +14,7 @@ export function TrustBadges() {
         {BADGES.flatMap((badge, i) => {
           const item = (
             <div key={badge.label} className="flex items-center gap-2.5">
-              <badge.icon className="size-[18px] text-ink-soft" />
+              <badge.icon className={`size-[18px] ${badge.color}`} />
               <span className="text-sm font-semibold text-ink-soft">{badge.label}</span>
             </div>
           );

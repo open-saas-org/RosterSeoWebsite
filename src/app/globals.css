@@ -6,15 +6,15 @@
  * marketing site and the product read as the same brand.
  */
 :root {
-  --background: #f8f5f1;
+  --background: #faf2e8;
   --foreground: #0a0a0a;
 
   --ink: #0a0a0a;
   --ink-soft: #52525b;
   --ink-faint: #a1a1aa;
-  --line: #e7e0d6;
-  --muted: #f1ebe2;
-  --muted-2: #ece4d7;
+  --line: #e8d9bf;
+  --muted: #f3e4d2;
+  --muted-2: #ead6be;
 
   --primary: #0d9488;
   --primary-dark: #0f766e;
