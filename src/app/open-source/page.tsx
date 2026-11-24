@@ -19,7 +19,7 @@ export default async function OpenSourcePage() {
       <PageHeader
         eyebrow="Open Source"
         title="Built in the open"
-        description="Every line of RosterSEO is on GitHub. MIT licensed — fork it, self-host it, change anything you want."
+        description="Every line of RosterSEO is on GitHub. MIT licensed — fork it, self-host it, change anything you want. Rather skip the setup? Plans start at $29/month, hosted."
       />
 
       <div className="mx-auto max-w-[880px] px-8 py-16">

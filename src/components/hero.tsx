@@ -5,19 +5,20 @@ export function Hero() {
   return (
     <div className="px-8 pb-16 pt-24">
       <div className="mx-auto flex max-w-[1160px] flex-col items-center gap-7 text-center">
-        <div className="inline-flex items-center gap-2 rounded-full border border-line bg-muted py-1.5 pl-2 pr-3.5">
-          <span className="rounded-full bg-ink px-2 py-0.5 text-[11px] font-bold tracking-wide text-white">MIT</span>
-          <span className="text-[13.5px] font-medium text-ink-soft">100% open source &amp; self-hosted</span>
+        <div className="inline-flex items-center gap-2 rounded-full border border-line bg-muted py-1.5 pl-3.5 pr-3.5">
+          <span className="text-[13.5px] font-medium text-ink-soft">
+            No credit card required to try it — <span className="font-semibold text-ink">or self-host it free, forever</span>
+          </span>
         </div>
 
         <h1 className="max-w-[820px] text-[36px] font-bold leading-[1.1] sm:text-[46px] sm:leading-[1.08] lg:text-[60px] lg:leading-[1.06]">
-          SEO, AI visibility, and publishing — <span className="text-primary">one open platform</span>
+          SEO and publishing, <span className="text-primary">on one platform</span>
         </h1>
 
         <p className="max-w-[640px] text-base leading-[1.55] text-ink-soft sm:text-[19px]">
           Track rankings, audit your site, and see how ChatGPT, Gemini, and Perplexity talk about your brand — then
-          publish content to your blog and social accounts from the same place. Self-hosted, MIT licensed, and yours
-          to run.
+          publish content to your blog and social accounts from the same place. Hosted for you in minutes, or
+          self-host it yourself — it&apos;s MIT licensed, so that option is always there.
         </p>
 
         <div className="mt-1 flex w-full flex-col items-center gap-3 sm:w-auto sm:flex-row">
@@ -25,17 +26,23 @@ export function Hero() {
             href="https://app.rosterseo.com"
             className="flex w-full items-center justify-center gap-2 whitespace-nowrap rounded-[10px] bg-ink px-6 py-3.5 text-[15.5px] font-semibold text-white hover:bg-neutral-800 sm:w-auto"
           >
-            Get Started
+            Start free trial
             <ArrowRightIcon className="size-4" />
           </a>
           <a
-            href="https://github.com/open-saas-org/RosterSeo"
+            href="/pricing"
             className="flex w-full items-center justify-center gap-2 whitespace-nowrap rounded-[10px] border border-line px-[22px] py-3.5 text-[15.5px] font-semibold text-ink hover:bg-muted sm:w-auto"
           >
-            <StarIcon className="size-[17px]" />
-            Star on GitHub
+            See pricing
           </a>
         </div>
+        <a
+          href="https://github.com/open-saas-org/RosterSeo"
+          className="-mt-2 flex items-center gap-1.5 text-[13.5px] font-medium text-ink-faint hover:text-ink-soft"
+        >
+          <StarIcon className="size-3.5" />
+          Prefer to run it yourself? It&apos;s open source on GitHub.
+        </a>
 
         <DashboardPreview />
       </div>
@@ -57,9 +64,9 @@ function DashboardPreview() {
       </div>
       <Image
         src="/screenshots/dashboard.jpg"
-        alt="RosterSEO dashboard showing real Domain Authority, organic traffic, and backlink data for a connected project"
+        alt="RosterSEO dashboard showing real Domain Authority, organic traffic, backlink data, and a completed Site Audit score for a connected project"
         width={800}
-        height={597}
+        height={500}
         className="h-auto w-full"
         priority
       />

@@ -33,9 +33,10 @@ export default function VisionPage() {
           from a real, inspectable API call.
         </p>
         <p>
-          Self-hosting isn&apos;t a compliance checkbox here — it&apos;s the actual point. Your rankings, your competitor
-          research, and your AI-visibility history live on your own infrastructure, under your own control, for as
-          long as you want them to.
+          Most people run it hosted — it&apos;s faster to start, and someone else handles the infrastructure. But the
+          option to self-host isn&apos;t a compliance checkbox bolted on for appearances: it&apos;s the same open code
+          either way, so your rankings, competitor research, and AI-visibility history can live on your own
+          infrastructure, under your own control, whenever you want that instead.
         </p>
 
         <h2>What &ldquo;real&rdquo; means in practice</h2>

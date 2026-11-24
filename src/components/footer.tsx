@@ -57,7 +57,7 @@ export function Footer() {
             <span className="text-base font-extrabold">RosterSEO</span>
           </div>
           <p className="max-w-[220px] text-[13.5px] leading-relaxed text-ink-soft">
-            Open-source SEO, AI-visibility, and publishing — self-hosted or coming soon to the cloud.
+            SEO, AI-visibility, and publishing, hosted for you in minutes — or self-hosted, since it's open source.
           </p>
         </div>
         {COLUMNS.map((col) => (

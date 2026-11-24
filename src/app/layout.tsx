@@ -15,9 +15,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "RosterSEO — Open-source SEO, AI visibility & publishing",
+  title: "RosterSEO — SEO and publishing, on one platform",
   description:
-    "RosterSEO is an open-source, self-hosted platform for SEO, AI-answer-engine visibility, and multi-platform publishing. MIT licensed. Run it on your own infrastructure.",
+    "Track rankings, audit your site, see how AI answer engines talk about your brand, and publish everywhere — hosted for you in minutes, or self-hosted for free since it's MIT licensed open source.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

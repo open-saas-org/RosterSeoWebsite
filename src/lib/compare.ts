@@ -9,11 +9,11 @@ export const COMPARISONS: Comparison[] = [
   {
     slug: "semrush",
     name: "Semrush",
-    tagline: "A closed-source, subscription SEO suite vs. an open-source one you run yourself.",
+    tagline: "A closed-source, subscription SEO suite vs. a hosted SEO + publishing platform that's also open source.",
     rows: [
       { feature: "Source code", rosterseo: "Fully open, MIT licensed", them: "Closed source" },
-      { feature: "Where your data lives", rosterseo: "Your own infrastructure", them: "Semrush's servers" },
-      { feature: "Pricing model", rosterseo: "Free to self-host, pay only your own API costs", them: "$139.95–$499.95+/mo subscription" },
+      { feature: "Where your data lives", rosterseo: "Hosted for you, or your own infrastructure if you self-host", them: "Semrush's servers" },
+      { feature: "Pricing model", rosterseo: "From $29/mo hosted — or free, self-hosted", them: "$139.95–$499.95+/mo subscription" },
       { feature: "AI-answer-engine visibility", rosterseo: "Built in — ChatGPT, Gemini, Perplexity", them: "Limited / add-on" },
       { feature: "Multi-platform publishing", rosterseo: "Built in — 10 blog + 8 social platforms", them: "Not included" },
       { feature: "Self-hostable", rosterseo: "Yes", them: "No" },
@@ -23,11 +23,11 @@ export const COMPARISONS: Comparison[] = [
   {
     slug: "ahrefs",
     name: "Ahrefs",
-    tagline: "A best-in-class closed backlink index vs. an open platform built around DataForSEO and real page-level analysis.",
+    tagline: "A best-in-class closed backlink index vs. a hosted platform built around DataForSEO and real page-level analysis — also open source.",
     rows: [
       { feature: "Source code", rosterseo: "Fully open, MIT licensed", them: "Closed source" },
-      { feature: "Where your data lives", rosterseo: "Your own infrastructure", them: "Ahrefs' servers" },
-      { feature: "Pricing model", rosterseo: "Free to self-host, pay only your own API costs", them: "$29–$1,499+/mo subscription" },
+      { feature: "Where your data lives", rosterseo: "Hosted for you, or your own infrastructure if you self-host", them: "Ahrefs' servers" },
+      { feature: "Pricing model", rosterseo: "From $29/mo hosted — or free, self-hosted", them: "$29–$1,499+/mo subscription" },
       { feature: "AI-answer-engine visibility", rosterseo: "Built in — ChatGPT, Gemini, Perplexity", them: "Not included" },
       { feature: "Multi-platform publishing", rosterseo: "Built in — 10 blog + 8 social platforms", them: "Not included" },
       { feature: "Self-hostable", rosterseo: "Yes", them: "No" },

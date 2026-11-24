@@ -6,22 +6,22 @@ import type { ComponentType } from "react";
 
 export const metadata: Metadata = {
   title: "How It Works — RosterSEO",
-  description: "From self-hosting to your first published post: how RosterSEO actually works, step by step.",
+  description: "From signup to your first published post: how RosterSEO actually works, step by step.",
 };
 
 const STEPS: { n: string; title: string; description: string; visual: ComponentType }[] = [
   {
     n: "01",
-    title: "Self-host in a few minutes",
+    title: "Sign up and connect your site",
     description:
-      "Run `docker compose up` or deploy to Railway in one click. Migrations run automatically on boot — there's no separate setup step to forget.",
+      "Create an account, pick a plan (14-day free trial, no credit card), and connect your site. DataForSEO and AI provider access are already included — no keys to find.",
     visual: CardGridVisual,
   },
   {
     n: "02",
-    title: "Connect your real data sources",
+    title: "Ground it in your real performance (optional)",
     description:
-      "Bring your own DataForSEO login and at least one AI provider key (OpenRouter, Anthropic, or OpenAI). Optionally connect Google Search Console, GA4, Merchant Center, and Bing Webmaster Tools to ground every recommendation in your site's real performance.",
+      "Connect Google Search Console, GA4, Merchant Center, and Bing Webmaster Tools to tie every recommendation to your site's actual traffic and rankings, not just estimates.",
     visual: StatsVisual,
   },
   {
@@ -52,7 +52,7 @@ export default function HowItWorksPage() {
     <>
       <PageHeader
         eyebrow="How it works"
-        title="From clone to published, step by step"
+        title="From signup to published, step by step"
         description="No black box — every step below is real, working software you can read the source of."
       />
 
@@ -72,6 +72,15 @@ export default function HowItWorksPage() {
               </div>
             </div>
           ))}
+        </div>
+
+        <div className="mt-16 rounded-2xl border border-line bg-muted p-7 text-center">
+          <h3 className="text-base font-bold">Rather run it yourself?</h3>
+          <p className="mx-auto mt-1.5 max-w-[480px] text-sm text-ink-soft">
+            Run <code className="rounded bg-white px-1.5 py-0.5 text-[13px]">docker compose up</code> or deploy to
+            Railway in one click, bring your own DataForSEO and AI provider keys, and skip straight to step 2 — free,
+            forever.
+          </p>
         </div>
       </div>
 

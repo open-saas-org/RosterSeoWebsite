@@ -120,7 +120,7 @@ export function ProductTour() {
                 src={slide.image}
                 alt={slide.alt}
                 fill
-                className={`tour-slide object-cover object-top transition-opacity duration-700 ease-in-out ${
+                className={`tour-slide object-contain transition-opacity duration-700 ease-in-out ${
                   i === index ? "opacity-100" : "opacity-0"
                 }`}
                 style={i === index && !paused ? { animationDuration: `${SLIDE_MS}ms` } : undefined}

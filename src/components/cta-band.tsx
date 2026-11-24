@@ -3,9 +3,9 @@ import { ArrowRightIcon, GitHubIcon } from "./icons";
 export function CtaBand() {
   return (
     <div className="mx-4 mb-24 flex flex-col items-center gap-5 rounded-3xl bg-ink px-6 py-14 text-center sm:mx-8 sm:px-10 sm:py-18">
-      <h2 className="text-[28px] font-bold text-white sm:text-4xl">Self-host it today</h2>
+      <h2 className="text-[28px] font-bold text-white sm:text-4xl">Start your free trial</h2>
       <p className="max-w-[480px] text-[16.5px] text-neutral-400">
-        Free forever. MIT licensed. Your data stays on your own infrastructure.
+        14 days free, no credit card required. Prefer to self-host? It's MIT licensed, free forever.
       </p>
       <div className="mt-2 flex w-full flex-col items-center gap-3 sm:w-auto sm:flex-row">
         <a

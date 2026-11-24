@@ -1,10 +1,10 @@
-import { GitBranchIcon, NoLockIcon, ServerIcon, ShieldIcon } from "./icons";
+import { CheckIcon, GitBranchIcon, SearchIcon, ServerIcon } from "./icons";
 
 const BADGES = [
-  { icon: ShieldIcon, label: "MIT Licensed" },
-  { icon: ServerIcon, label: "Self-hostable — Docker & Railway" },
-  { icon: GitBranchIcon, label: "100% Open Source" },
-  { icon: NoLockIcon, label: "No vendor lock-in" },
+  { icon: SearchIcon, label: "Real DataForSEO + Google data, not estimates" },
+  { icon: ServerIcon, label: "Live in minutes — no setup, no servers to run" },
+  { icon: CheckIcon, label: "14-day free trial, no credit card" },
+  { icon: GitBranchIcon, label: "Open source — self-host it anytime" },
 ];
 
 export function TrustBadges() {
