@@ -24,7 +24,7 @@ export function Hero() {
         <div className="mt-1 flex w-full flex-col items-center gap-3 sm:w-auto sm:flex-row">
           <a
             href="https://app.rosterseo.com"
-            className="flex w-full items-center justify-center gap-2 whitespace-nowrap rounded-[10px] bg-ink px-6 py-3.5 text-[15.5px] font-semibold text-white hover:bg-neutral-800 sm:w-auto"
+            className="flex w-full items-center justify-center gap-2 whitespace-nowrap rounded-[10px] bg-ink px-6 py-3.5 text-[15.5px] font-semibold text-white hover:bg-ink-hover sm:w-auto"
           >
             Start free trial
             <ArrowRightIcon className="size-4" />

@@ -59,7 +59,7 @@ export default async function ChangelogPage() {
                       {release.tagName}
                     </span>
                     {release.prerelease && (
-                      <span className="rounded-full bg-amber-100 px-2.5 py-0.5 text-[11px] font-bold text-amber-800">
+                      <span className="rounded-full bg-warning-tint px-2.5 py-0.5 text-[11px] font-bold text-warning">
                         PRE-RELEASE
                       </span>
                     )}

@@ -26,7 +26,7 @@ const COLUMNS: { id: string; label: string; accent: string; items: Item[] }[] = 
   {
     id: "in-progress",
     label: "In progress",
-    accent: "bg-amber-500",
+    accent: "bg-warning",
     items: [
       { title: "Self-host CLI", description: "A one-command installer (`rosterseo init`) — same idea as similar open-source tools' CLIs." },
       { title: "Versioned releases", description: "Tagged GitHub Releases with real changelogs, cut deliberately rather than on every push." },
@@ -81,7 +81,7 @@ export default function RoadmapPage() {
           </p>
           <a
             href={`${GITHUB_REPO_URL}/issues/new`}
-            className="mt-1 rounded-[10px] bg-ink px-5 py-2.5 text-sm font-semibold text-white hover:bg-neutral-800"
+            className="mt-1 rounded-[10px] bg-ink px-5 py-2.5 text-sm font-semibold text-white hover:bg-ink-hover"
           >
             Open an issue
           </a>

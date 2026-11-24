@@ -47,7 +47,7 @@ export function McpTerminal() {
           <p className="text-xs text-ink-faint">See apps/mcp-server in the open-source repo for every tool.</p>
         </div>
 
-        <div className="overflow-hidden rounded-[18px] border border-line bg-[#0b0f0e] shadow-[0_24px_60px_-20px_rgba(0,0,0,0.35)]">
+        <div className="overflow-hidden rounded-[18px] border border-line bg-surface-dark shadow-[0_24px_60px_-20px_rgba(0,0,0,0.35)]">
           <div className="flex h-[38px] items-center gap-1.5 border-b border-white/10 px-3.5">
             <div className="size-2.5 rounded-full bg-white/20" />
             <div className="size-2.5 rounded-full bg-white/20" />
@@ -62,7 +62,7 @@ export function McpTerminal() {
                   line.kind === "prompt"
                     ? "text-white/90"
                     : line.kind === "tool"
-                      ? "text-emerald-400"
+                      ? "text-primary-on-dark"
                       : "pl-2 text-white/50"
                 }
               >

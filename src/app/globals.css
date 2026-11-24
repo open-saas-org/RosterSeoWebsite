@@ -1,31 +1,49 @@
 @import "tailwindcss";
 
 /*
- * Light-only palette, deliberately - no dark mode. Values mirror the main
- * app's tokens (apps/web/app/globals.css in the RosterSeo repo) so the
- * marketing site and the product read as the same brand.
+ * Light-only palette, deliberately - no dark mode. Every color used
+ * anywhere on the site is defined once here and consumed as a Tailwind
+ * utility (bg-primary, text-seo, border-warning, etc) - never a raw
+ * Tailwind palette class (bg-amber-500, text-emerald-400) or an inline
+ * hex value. Change a value here and it updates everywhere at once.
+ *
+ * Brand is a deep, unique jade-green (not Tailwind's emerald/teal/green
+ * defaults) - a natural fit for an SEO product. --seo and --success alias
+ * --primary directly so there's exactly one green in the system, not
+ * three similar-but-different ones.
  */
 :root {
-  --background: #faf2e8;
+  --background: #fbf6ec;
   --foreground: #0a0a0a;
 
   --ink: #0a0a0a;
   --ink-soft: #52525b;
   --ink-faint: #a1a1aa;
-  --line: #e8d9bf;
-  --muted: #f3e4d2;
-  --muted-2: #ead6be;
+  --line: #e2d3b3;
+  --muted: #f4ebd9;
+  --muted-2: #ece0c7;
 
-  --primary: #0d9488;
-  --primary-dark: #0f766e;
-  --primary-tint: #f0fdfa;
+  --primary: #15734f;
+  --primary-dark: #0f5b3e;
+  --primary-tint: #e3f3ea;
+  --primary-on-dark: #3fae82;
 
-  --seo: #059669;
-  --seo-tint: #ecfdf5;
-  --publish: #9333ea;
-  --publish-tint: #faf5ff;
-  --sky: #0ea5e9;
-  --sky-tint: #f0f9ff;
+  --seo: var(--primary);
+  --seo-tint: var(--primary-tint);
+  --publish: #b9790a;
+  --publish-tint: #fbf1dc;
+  --sky: #3f5ba9;
+  --sky-tint: #eaeffb;
+
+  --success: var(--primary);
+  --success-tint: var(--primary-tint);
+  --warning: #c8860f;
+  --warning-tint: #fcf1dc;
+  --danger: #c0392b;
+  --danger-tint: #fbeae7;
+
+  --surface-dark: #0b0f0e;
+  --ink-hover: #1f1f1f;
 }
 
 @theme inline {
@@ -38,10 +56,12 @@
   --color-line: var(--line);
   --color-muted: var(--muted);
   --color-muted-2: var(--muted-2);
+  --color-ink-hover: var(--ink-hover);
 
   --color-primary: var(--primary);
   --color-primary-dark: var(--primary-dark);
   --color-primary-tint: var(--primary-tint);
+  --color-primary-on-dark: var(--primary-on-dark);
 
   --color-seo: var(--seo);
   --color-seo-tint: var(--seo-tint);
@@ -49,6 +69,15 @@
   --color-publish-tint: var(--publish-tint);
   --color-sky: var(--sky);
   --color-sky-tint: var(--sky-tint);
+
+  --color-success: var(--success);
+  --color-success-tint: var(--success-tint);
+  --color-warning: var(--warning);
+  --color-warning-tint: var(--warning-tint);
+  --color-danger: var(--danger);
+  --color-danger-tint: var(--danger-tint);
+
+  --color-surface-dark: var(--surface-dark);
 
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);

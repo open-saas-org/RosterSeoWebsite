@@ -80,10 +80,10 @@ export function FeatureGrid() {
             visual={
               <div className="flex h-full flex-col justify-center gap-2">
                 {[
-                  { c: "bg-green-500", w: "60%" },
-                  { c: "bg-amber-500", w: "75%" },
-                  { c: "bg-red-500", w: "50%" },
-                  { c: "bg-green-500", w: "65%" },
+                  { c: "bg-success", w: "60%" },
+                  { c: "bg-warning", w: "75%" },
+                  { c: "bg-danger", w: "50%" },
+                  { c: "bg-success", w: "65%" },
                 ].map((row, i) => (
                   <div key={i} className="flex items-center gap-2">
                     <div className={`size-4 rounded ${row.c}`} />

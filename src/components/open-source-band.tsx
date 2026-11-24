@@ -14,7 +14,7 @@ export function OpenSourceBand() {
         <div className="mt-1 flex flex-col items-center gap-3 sm:flex-row">
           <a
             href="/open-source"
-            className="flex items-center justify-center gap-2 rounded-[10px] bg-ink px-6 py-3.5 text-[15px] font-semibold text-white hover:bg-neutral-800"
+            className="flex items-center justify-center gap-2 rounded-[10px] bg-ink px-6 py-3.5 text-[15px] font-semibold text-white hover:bg-ink-hover"
           >
             Why open source
             <ArrowRightIcon className="size-4" />

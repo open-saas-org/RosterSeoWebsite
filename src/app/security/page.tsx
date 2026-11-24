@@ -14,11 +14,11 @@ export default function SecurityPage() {
       <PageHeader eyebrow="Security" title="Security policy" />
 
       <div className="mx-auto max-w-[720px] px-8 py-16">
-        <div className="mb-10 flex items-start gap-4 rounded-2xl border border-amber-200 bg-amber-50 p-6">
-          <ShieldIcon className="mt-0.5 size-6 shrink-0 text-amber-700" />
+        <div className="mb-10 flex items-start gap-4 rounded-2xl border border-warning/30 bg-warning-tint p-6">
+          <ShieldIcon className="mt-0.5 size-6 shrink-0 text-warning" />
           <div>
-            <h2 className="mb-1 text-base font-bold text-amber-900">Do not open a public issue for a vulnerability</h2>
-            <p className="text-[14.5px] leading-relaxed text-amber-800">
+            <h2 className="mb-1 text-base font-bold text-ink">Do not open a public issue for a vulnerability</h2>
+            <p className="text-[14.5px] leading-relaxed text-ink-soft">
               Report it privately via{" "}
               <a href={`${GITHUB_REPO_URL}/security/advisories/new`} className="font-semibold underline">
                 GitHub Security Advisories

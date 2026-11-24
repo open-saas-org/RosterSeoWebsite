@@ -8,10 +8,11 @@ export const metadata: Metadata = {
 };
 
 const COLORS = [
-  { name: "Primary", hex: "#0D9488", css: "--primary" },
-  { name: "SEO", hex: "#059669", css: "--seo" },
-  { name: "Publish", hex: "#9333EA", css: "--publish" },
-  { name: "Social", hex: "#0EA5E9", css: "--sky" },
+  { name: "Primary / SEO", hex: "#15734F", css: "--primary" },
+  { name: "Publish", hex: "#B9790A", css: "--publish" },
+  { name: "Social", hex: "#3F5BA9", css: "--sky" },
+  { name: "Warning", hex: "#C8860F", css: "--warning" },
+  { name: "Danger", hex: "#C0392B", css: "--danger" },
   { name: "Ink", hex: "#0A0A0A", css: "--ink" },
 ];
 
@@ -45,7 +46,7 @@ export default function BrandPage() {
         </div>
 
         <h2 className="mb-5 mt-14 text-xl font-bold">Colors</h2>
-        <div className="grid grid-cols-2 gap-4 sm:grid-cols-5">
+        <div className="grid grid-cols-2 gap-4 sm:grid-cols-3">
           {COLORS.map((color) => (
             <div key={color.name} className="flex flex-col gap-2">
               <div className="h-16 rounded-xl border border-line" style={{ backgroundColor: color.hex }} />

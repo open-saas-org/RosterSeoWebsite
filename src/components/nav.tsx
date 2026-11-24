@@ -84,7 +84,7 @@ export function Nav() {
           </a>
           <a
             href={APP_URL}
-            className="flex items-center gap-2 rounded-[10px] bg-ink px-[18px] py-[9px] text-sm font-semibold text-white hover:bg-neutral-800"
+            className="flex items-center gap-2 rounded-[10px] bg-ink px-[18px] py-[9px] text-sm font-semibold text-white hover:bg-ink-hover"
           >
             Get Started
           </a>

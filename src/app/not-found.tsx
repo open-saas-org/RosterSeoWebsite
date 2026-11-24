@@ -13,7 +13,7 @@ export default function NotFound() {
       <div className="mt-2 flex items-center gap-3">
         <Link
           href="/"
-          className="flex items-center gap-2 rounded-[10px] bg-ink px-5 py-2.5 text-sm font-semibold text-white hover:bg-neutral-800"
+          className="flex items-center gap-2 rounded-[10px] bg-ink px-5 py-2.5 text-sm font-semibold text-white hover:bg-ink-hover"
         >
           Back home
           <ArrowRightIcon className="size-3.5" />

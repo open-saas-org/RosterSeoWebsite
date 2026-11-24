@@ -33,9 +33,9 @@ export function StatsVisual() {
 // 36 open issues across Links/Content/Performance.
 export function ChecklistVisual() {
   const rows = [
-    { label: "Links", count: 15, c: "bg-red-500" },
-    { label: "Content", count: 12, c: "bg-amber-500" },
-    { label: "Performance", count: 4, c: "bg-red-500" },
+    { label: "Links", count: 15, c: "bg-danger" },
+    { label: "Content", count: 12, c: "bg-warning" },
+    { label: "Performance", count: 4, c: "bg-danger" },
   ];
   return (
     <div className="flex h-full flex-col justify-center gap-2.5 p-6">
@@ -96,7 +96,7 @@ export function TableVisual() {
 export function AvatarRowsVisual() {
   const stats = [
     { label: "Visibility", value: "6%", color: "text-primary" },
-    { label: "Share of voice", value: "15%", color: "text-amber-600" },
+    { label: "Share of voice", value: "15%", color: "text-warning" },
     { label: "Prompts tracked", value: "5", color: "text-ink" },
   ];
   return (
@@ -141,10 +141,10 @@ export function ChatVisual() {
 export function McpVisual() {
   return (
     <div className="flex h-full items-center justify-center p-5">
-      <div className="w-full rounded-[10px] bg-[#0b0f0e] p-4 font-mono text-[11px] leading-relaxed">
-        <div className="text-emerald-400">● get_rankings({"{"} projectId {"}"})</div>
+      <div className="w-full rounded-[10px] bg-surface-dark p-4 font-mono text-[11px] leading-relaxed">
+        <div className="text-primary-on-dark">● get_rankings({"{"} projectId {"}"})</div>
         <div className="pl-2 text-white/50">→ real position history, most recent first</div>
-        <div className="mt-1.5 text-emerald-400">● get_site_audits({"{"} projectId {"}"})</div>
+        <div className="mt-1.5 text-primary-on-dark">● get_site_audits({"{"} projectId {"}"})</div>
         <div className="pl-2 text-white/50">→ health score, pages crawled, open issues</div>
       </div>
     </div>

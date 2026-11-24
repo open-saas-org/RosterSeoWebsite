@@ -19,12 +19,12 @@ export function Steps() {
               </div>
               <h3 className="text-[17px] font-bold">Install the CLI</h3>
             </div>
-            <div className="flex flex-col gap-1.5 rounded-[10px] bg-[#0a0a0a] p-4.5 font-mono text-[13px] text-neutral-200">
+            <div className="flex flex-col gap-1.5 rounded-[10px] bg-surface-dark p-4.5 font-mono text-[13px] text-white/80">
               <div>
-                <span className="text-neutral-500">$</span> npm install -g @rosterseo/cli
+                <span className="text-white/40">$</span> npm install -g @rosterseo/cli
               </div>
               <div>
-                <span className="text-neutral-500">$</span> rosterseo init
+                <span className="text-white/40">$</span> rosterseo init
               </div>
             </div>
             <p className="text-sm leading-relaxed text-ink-soft">
@@ -61,7 +61,7 @@ export function Steps() {
               </div>
               <h3 className="text-[17px] font-bold">Track, audit, and grow</h3>
             </div>
-            <div className="flex items-center gap-2.5 rounded-[10px] border border-teal-200 bg-primary-tint p-4.5">
+            <div className="flex items-center gap-2.5 rounded-[10px] border border-primary/25 bg-primary-tint p-4.5">
               <CheckIcon className="size-5 shrink-0 text-primary" />
               <span className="text-[13.5px] font-semibold text-primary-dark">Migrations run automatically on boot</span>
             </div>
