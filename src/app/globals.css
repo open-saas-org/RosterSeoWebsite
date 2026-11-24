@@ -71,6 +71,32 @@ h1, h2, h3 {
   color: var(--primary-dark);
 }
 
+/* ProductTour's auto-playing real-screenshot showcase (src/components/
+   product-tour.tsx) - a subtle Ken Burns zoom on the active screenshot and
+   a fill animation on its progress segment, so the section reads as a
+   short, moving "video" without actually embedding a video file. */
+@keyframes tour-zoom {
+  from { transform: scale(1); }
+  to { transform: scale(1.06); }
+}
+.tour-slide {
+  animation-name: tour-zoom;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+@keyframes tour-progress-fill {
+  from { width: 0%; }
+  to { width: 100%; }
+}
+.tour-progress {
+  animation-name: tour-progress-fill;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+@media (prefers-reduced-motion: reduce) {
+  .tour-slide, .tour-progress { animation: none; }
+}
+
 /* Minimal markdown styling for GitHub release notes / MDX blog content —
    hand-rolled rather than pulling in @tailwindcss/typography for this much
    surface area. */
